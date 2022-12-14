@@ -21,8 +21,8 @@
 	<TR height="15">
 	<TD width="1920">
  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <input name="email" size="22">        &nbsp &nbsp &nbsp &nbsp &nbsp 
-										   <input name="nazwisko" size="22">     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-										   <input name="nick" size="22">    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+										   <input name="nazwisko" size="22" placeholder="optional">     &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+										   <input name="nick" size="22" maxlength="10" placeholder="max 10 znaków">    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
 										   <input type="password" name="hasło" size="22"> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 										   <input type="date" name="data" size="40"> 
 	</TD>
@@ -77,13 +77,28 @@
             <option value="opcja4">Am.Płn</option>
 			<option value="opcja4">Australia</option></select>
 			
-		<b>Aplikacje z grami, z których korzystasz</b>	
-			<input type="checkbox" name="checkbox" value="wartość"> opcja 1
-        <input type="checkbox" name="checkbox" value="wartość"> opcja 2
-        <input type="checkbox" name="checkbox" value="wartość"> opcja 3
-        <input type="checkbox" name="checkbox" value="wartość"> opcja 4
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<b>Aplikacje z grami, z których korzystasz</b>	
+		<br>
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<input type="checkbox" name="checkbox" value="wartość" checked="checked"> Battle.net
+        <input type="checkbox" name="checkbox" value="wartość"> Steam
+        <input type="checkbox" name="checkbox" value="wartość"> Epic games
+        <input type="checkbox" name="checkbox" value="wartość"> Uplay
+		<input type="checkbox" name="checkbox" value="wartość"> Origin
 </TD>
 </TR>	
+
+<TR height="20">
+<TD>
+	<br>
+		<b>Ulubiona rola w grach </b> 		
+<br><input type="checkbox" name="checkbox" value="wartość"> Ofensywa
+<br> <input type="checkbox" name="checkbox" value="wartość"> Defensywa
+<br> <input type="checkbox" name="checkbox" value="wartość"> Wsparcie
+	
+</TD>
+</TR>
 	</TABLE>
 </form>
 <a href="index.html">wróć</a>
