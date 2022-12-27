@@ -4,10 +4,8 @@
 	<meta charset="utf-8">
 	<title> ZADANIE FORMULARZ </title>
 </head>
-		<body bgcolor="#87CEFA">
-<center><h1> Formlarz BLIZZARD</h1></center>
-<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post"></form>
-<form enctype="text/plain" action= "a href=index.html" method="Strona główna"></a></form>
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post"> </form>
+<form enctype="text/plain" action= "a href="index.html"</a>" method="Back"> </form>
 		<TABLE>
 		 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 		 <b>E-mail</b> 
@@ -33,11 +31,11 @@
 <br><br>
 	<b>Płeć</b>
 	<br>
-		<input type="radio" name="Mężczyzna" value="Płeć"> Mężczyzna
+		<input type="radio" name="Płeć" value="Mężczyzna"> Mężczyzna
 	<br>
-        <input type="radio" name="Kobieta" value="Płeć"> Kobieta
+        <input type="radio" name="Płeć" value="Kobieta"> Kobieta
 	<br>
-        <input type="radio" name="Inne" value="Płeć"> Inne
+        <input type="radio" name="Płeć" value="Inne"> Inne
 </TD>
 </TR>
 
@@ -47,11 +45,11 @@
 <br>
 			<b>Platforma</b>
 			<br>
-		<input type="radio" name="PC" value="Platforma"> PC
-        <input type="radio" name="XBOX" value="Platforma"> XBOX
-        <input type="radio" name="Playstation" value="Platforma"> Playstation
-        <input type="radio" name="Nintendo" value="Platforma"> Nintendo
-		<input type="radio" name="INNE" value="Platforma"> INNE
+		<input type="radio" name="Platforma" value="PC"> PC
+        <input type="radio" name="Platforma" value="XBOX"> XBOX
+        <input type="radio" name="Platforma" value="Playstation"> Playstation
+        <input type="radio" name="Platforma" value="Nintendo"> Nintendo
+		<input type="radio" name="Platforma" value="INNE"> INNE
 </TD>
 </TR>
 
@@ -103,16 +101,7 @@
         <option value="opcja3"> Nie</option></select>
 		
 <br> <input type="checkbox" name="Defensywa" value="wartość"> Defensywa
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-		<b>Temat wiadomości</b>
-<br> <input type="checkbox" name="Wsparcie" value="wartość"> Wsparcie
-&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp 
-<select name="wybierz3"  id="wybierz" style= "width: 150px;">
-		<option value="opcja1_2"> Zapytanie ogólne</option>
-        <option value="opcja2_2"> Zgłoszenie błędu</option>
-        <option value="opcja3_2"> Zgłoszenie gracza</option>
-		<option value="opcja4_2"> Problem z kontem</option></select>
-	
+<br> <input type="checkbox" name="Wsparcie" value="wartość"> Wsparcie	
 </TD>
 </TR>
 
@@ -128,14 +117,32 @@
 </TR>
 <TR height="22">
 <TD>
-	<button type="Strona główna" name="Strona główna" <a href="index.html">Wróć</a></button>
-	<input type="reset" name="Wyczyść">
-		 &nbsp &nbsp &nbsp &nbsp 
-	<input type="submit" value="wyślij">
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<b>Temat wiadomości</b>
+<br>
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp 
+	<select name="wybierz3"  id="wybierz" style= "width: 150px;">
+		<option value="opcja1_2"> Zapytanie ogólne</option>
+        <option value="opcja2_2"> Zgłoszenie błędu</option>
+        <option value="opcja3_2"> Zgłoszenie gracza</option>
+		<option value="opcja4_2"> Problem z kontem</option></select>
+<br>
+	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	 <textarea style="width:250px; height:120px;" name="Pole tekstowe" placeholder="Min. 150 znaków" ></textarea>
 </TD>
 </TR>
+<TR height="30"> 
+<TD width="1920"> 
+	<button type="Tos" value="tos">Terms of Service</button> 
+	<button type="Back" value="Back">Strona główna</button>
+	<button type="reset" name="WYCZYŚĆ">WYCZYŚĆ</button>
+	<button type="submit" value="wyslij">WYŚLIJ</button>
+	</TR> 
+	</TD>
 	</TABLE>
 </form>
 <a href="index.html">wróć</a>
+<hr></hr>
+	<center><h1> Formlarz BLIZZARD</h1></center>
 		</body>
 	</html>
