@@ -5,8 +5,9 @@
 	<title> ZADANIE FORMULARZ </title>
 </head>
 		<body bgcolor="#87CEFA">
-<center><h1> Formularz BLIZZARD</h1></center>
-<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post">
+<center><h1> Formlarz BLIZZARD</h1></center>
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post"></form>
+<form enctype="text/plain" action= "a href=index.html" method="Strona główna"></a></form>
 		<TABLE>
 		 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
 		 <b>E-mail</b> 
@@ -70,12 +71,12 @@
 	<br>
 		<b>Region zamieszkania</b>
 	<br>
-		 <select name="wybierz" id="wybierz">
+		 <select name="wybierz" id="wybierz" style="width: 125px;">
             <option value="opcja1" checked="checked">Europa</option>
-            <option value="opcja2">Azja</option>
+			<option value="opcja2">Azja</option>
             <option value="opcja3">Am.Płd</option>
             <option value="opcja4">Am.Płn</option>
-			<option value="opcja4">Australia</option></select>
+			<option value="opcja5">Australia</option></select>
 			
 	&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 	<b>Aplikacje z grami, z których korzystasz</b>	
@@ -91,12 +92,46 @@
 
 <TR height="20">
 <TD>
-	<br>
-		<b>Ulubiona rola w grach </b> 		
-<br><input type="checkbox" name="checkbox" value="wartość"> Ofensywa
+	<br><b>Ulubiona rola w grach </b> 			
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+		<b>Czy jesteś stałym graczem</b>
+<br><input type="checkbox" name="checkbox" value="wartość"> Ofensywa  
+		&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+	<select name="wybierz2"  id="wybierz" style= "width: 200px;">
+		<option value="opcja1" checked="checked"> Nie wiem</option>
+        <option value="opcja2"> Tak</option>
+        <option value="opcja3"> Nie</option></select>
+		
 <br> <input type="checkbox" name="checkbox" value="wartość"> Defensywa
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+		<b>Temat wiadomości</b>
 <br> <input type="checkbox" name="checkbox" value="wartość"> Wsparcie
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp 
+<select name="wybierz3"  id="wybierz" style= "width: 150px;">
+		<option value="opcja1"> Zapytanie ogólne</option>
+        <option value="opcja2"> Zgłoszenie błędu</option>
+        <option value="opcja3"> Zgłoszenie gracza</option>
+		<option value="opcja4"> Problem z kontem</option></select>
 	
+</TD>
+</TR>
+
+<TR height="21">
+<TD>
+	<br>
+		<b>Rodzaje dokonywanych zakupów w battle.net:</b>
+	<br>	<input type="checkbox" name="checkbox" value="wartość"> Mikrotranzakcje
+    <br>   <input type="checkbox" name="checkbox" value="wartość"> Gry
+    <br>    <input type="checkbox" name="checkbox" value="wartość"> Subskrypcje miesięczne
+    <br>    <input type="checkbox" name="checkbox" value="wartość"> Zestawy(np. Gra + waluta do gry)
+</TD>
+</TR>
+<TR height="22">
+<TD>
+	<button type="Strona główna" name="Strona główna" <a href="index.html">Wróć</a></button>
+	<input type="reset" name="Wyczyść">
+		 &nbsp &nbsp &nbsp &nbsp 
+	<input type="submit" value="wyślij">
 </TD>
 </TR>
 	</TABLE>
